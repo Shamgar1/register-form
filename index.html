@@ -1,5 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body></body>
+
+<head>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <form action="action_page.php">
+        <div class="container">
+            <h1>Register</h1>
+
+            <hr>
+
+            <label for="Full name"><b>Full name</b></label>
+            <input type="text" placeholder="Enter Full name" name="Full name" id="Full name" required>
+
+            <label for="Age"><b>Age</b></label>
+            <input type="text" placeholder="Enter Age" name="Full Age" id="Age" required>
+
+            <label for="Gender"><b>Gender</b></label>
+            <select name="Gender" id="Gender">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Other and better">Other and better</option>
+            </select>
+
+            <label for="Username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="Username" id="Username" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+            <hr>
+
+            <button type="submit" class="registerbtn">Register</button>
+        </div>
+
+        <div class="container signin">
+        </div>
+    </form>
+
+
+</body>
+
 </html>
